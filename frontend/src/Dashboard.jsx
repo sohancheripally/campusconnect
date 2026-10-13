@@ -2,8 +2,7 @@
 import { useEffect, useState } from "react";
 import "./Dashboard.css";
 
-const API = "http://localhost:8080";
-
+const API = "https://campusconnect-2-souu.onrender.com";
 export default function Dashboard({ user, onLogout }) {
   const [stats, setStats] = useState(null);
   const [notices, setNotices] = useState([]);
